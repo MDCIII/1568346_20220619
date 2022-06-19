@@ -76,17 +76,20 @@ jobs:
       #     repository: EticaAI/lexicographi-sine-finibus
       #     path: officina/999999/3133368/lexicographi-sine-finibus
 
-      # - name: MDCIII/999999_1603_16
-      #   uses: actions/checkout@v3
-      #   continue-on-error: true
-      #   with:
-      #     repository: MDCIII/999999_1603_16
-      #     path: officina/999999/3133368/999999_1603_16
+      - name: MDCIII/999999_1603_16
+        uses: actions/checkout@v3
+        continue-on-error: true
+        with:
+          repository: MDCIII/999999_1603_16
+          path: officina/999999/3133368/999999_1603_16
 
-      # # Debug part, remove later, START
-      # - run: pwd
-      # - run: find * -type f
-      #   continue-on-error: true
+      # Debug part, remove later, START
+      - run: pwd
+      - run: find * -type f
+        continue-on-error: true
+      - run: pwd
+      - run: git status
+        continue-on-error: true
       # # Debug part, remove later, END
 
       # - name: "Merge 999999 [MDCIII/999999_1603_16 -> EticaAI/lexicographi-sine-finibus]"
