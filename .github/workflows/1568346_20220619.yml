@@ -90,6 +90,7 @@ jobs:
           --prune-empty-dirs
           --include "*/"
           --include="*.ttl" --include="*.owl"  --include="*.csv"
+          --exclude=".gitkeep"
           --exclude="*"
           officina/999999/3133368/lsf-cache/1603/1/1603/
           officina/1603/1/1603
@@ -111,6 +112,7 @@ jobs:
           --prune-empty-dirs
           --include "*/"
           --include="*.ttl" --include="*.owl"  --include="*.csv"
+          --exclude=".gitkeep"
           --exclude="*"
           officina/999999/3133368/1603_16_24/1603/16/24/
           officina/1603/16/24

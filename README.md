@@ -14,5 +14,6 @@ Ignore this, just for Rocha tests dealing with file permissions
 cd /workspace/git/mdciii/1568346_20220619
 sudo chown 1000:1603 -R officina/
 sudo chmod 1775 -R officina/
+sudo find officina/ -type f -exec chmod 644 -- {} +
 
 -->
