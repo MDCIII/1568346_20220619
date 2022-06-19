@@ -76,16 +76,32 @@ jobs:
       #     repository: EticaAI/lexicographi-sine-finibus
       #     path: officina/999999/3133368/lexicographi-sine-finibus
 
+      - name: EticaAI/lsf-cache
+        uses: actions/checkout@v3
+        continue-on-error: true
+        with:
+          repository: EticaAI/lsf-cache
+          path: officina/999999/3133368/lsf-cache
+          fetch-depth: "1"
+
+      - name: "[EticaAI/lsf-cache/1603/1/1603 -> apothēca]"
+        run: >
+          rsync --verbose --human-readable --checksum --recursive
+          EticaAI/lsf-cache/1603/1/1603/
+          officina/1603/1/1603/
+        continue-on-error: true
+
+      # - run: mkdir -p officina/1603/16/24
+
       - name: MDCIII/1603_16_24
         uses: actions/checkout@v3
         continue-on-error: true
         with:
           repository: MDCIII/1603_16_24
           path: officina/999999/3133368/1603_16_24
+          fetch-depth: "1"
 
-      # - run: mkdir -p officina/1603/16/24
-
-      - name: "[MDCIII/1603_16_24 -> apothēca]"
+      - name: "[MDCIII/1603_16_24/1603/16/24/ -> apothēca]"
         run: >
           rsync --verbose --human-readable --checksum --recursive
           officina/999999/3133368/1603_16_24/1603/16/24/
