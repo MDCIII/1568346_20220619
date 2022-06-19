@@ -1,3 +1,7 @@
+
+# Use can merge everything from 1568346_20220619.owl into 1568346_20220619.merged.owl
+*.merged.owl
+
 999999/0/*
 !999999/0/.gitkeep
 999999/3133368/*

@@ -12,6 +12,7 @@
         <owl:imports rdf:resource="urn:mdciii:1603:1:1603(0)"/>
         <owl:imports rdf:resource="urn:mdciii:1603:16:24:0"/>
         <owl:imports rdf:resource="urn:mdciii:1603:16:24:1"/>
+        <owl:imports rdf:resource="urn:mdciii:1603:16:24:1(0)"/>
         <owl:imports rdf:resource="urn:mdciii:1603:16:24:2"/>
         <owl:imports rdf:resource="urn:mdciii:1603:16:24:3"/>
     </owl:Ontology>
