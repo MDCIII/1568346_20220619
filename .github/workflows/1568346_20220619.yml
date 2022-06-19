@@ -69,6 +69,8 @@ jobs:
 
       - name: apothēca [MDCIII/1568346_20220619]
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
 
       # - name: EticaAI/lexicographi-sine-finibus
       #   uses: actions/checkout@v3
@@ -286,6 +288,14 @@ jobs:
       # - run: ./999999999/1603_16.workflow.sh
       #   continue-on-error: true
 
+      - name: git diff --name-only
+        id: git_diff_files
+        run: git diff --name-only
+
+      - name: git diff --name-only (result)
+        run: echo "The selected color is ${{ steps.git_diff_files.outputs }}"
+
+      # @TODO test first if changes are need, then commit it
       - name: commit changes if necessary
         continue-on-error: true
         run: |

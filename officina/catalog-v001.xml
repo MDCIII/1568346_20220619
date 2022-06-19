@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="_1603_1_1603" name="urn:mdciii:1603:1:1603(0)" uri="1603/1/1603/1603_1_1603.owl"/>
+    <uri id="_1603_16_24_0" name="urn:mdciii:1603:16:24:0" uri="officina/1603/16/24/0/1603_16_24_0.no1.owl.ttl"/>
+    <uri id="_1603_16_24_1" name="urn:mdciii:1603:16:24:1" uri="officina/1603/16/24/1/1603_16_24_1.no1.owl.ttl"/>
+    <uri id="_1603_16_24_2" name="urn:mdciii:1603:16:24:2" uri="officina/1603/16/24/2/1603_16_24_2.no1.owl.ttl"/>
+    <uri id="_1603_16_24_3" name="urn:mdciii:1603:16:24:3" uri="officina/1603/16/24/3/1603_16_24_3.no1.owl.ttl"/>
+</catalog>

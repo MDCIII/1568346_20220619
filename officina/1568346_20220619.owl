@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://github.com/MDCIII/1568346_20220619/tree/main/officina/1568346_20220619.owl#"
+     xml:base="https://github.com/MDCIII/1568346_20220619/tree/main/officina/1568346_20220619.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <owl:Ontology rdf:about="urn:mdciii:1568346:20220619">
+        <owl:imports rdf:resource="urn:mdciii:1603:1:1603(0)"/>
+        <owl:imports rdf:resource="urn:mdciii:1603:16:24:0"/>
+        <owl:imports rdf:resource="urn:mdciii:1603:16:24:1"/>
+        <owl:imports rdf:resource="urn:mdciii:1603:16:24:2"/>
+        <owl:imports rdf:resource="urn:mdciii:1603:16:24:3"/>
+    </owl:Ontology>
+</rdf:RDF>
