@@ -16,6 +16,9 @@ sudo chown 1000:1603 -R officina/
 sudo chmod 1775 -R officina/
 sudo find officina/ -type f -exec chmod 644 -- {} +
 
+sudo su mdciii
+source ~/.profile
+
 # Protege
 #    /opt/Protege-5.5.0/run.sh
 -->

@@ -6,8 +6,12 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix p: <http://www.wikidata.org/prop/> .
 
+<urn:mdciii:1603:16(0)>
+    rdf:type owl:Ontology .
+
 <urn:mdciii:1603:16()>
     a skos:ConceptScheme ;
+    rdf:type owl:Ontology ;
     rdfs:label "(1603:16)" .
 
 <urn:mdciii:1603:16:24()>
@@ -110,4 +114,3 @@
     obo:BFO_0000124 <urn:mcdiii:1603:16:24:0> ;
     a obo:BFO_0000029, owl:Thing, skos:Concept ;
     rdfs:label "1603:16:24:1:9" .
-
