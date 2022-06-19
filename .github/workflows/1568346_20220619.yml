@@ -41,9 +41,9 @@ env:
   # Fix: 'tput: No value for $TERM and no -T specified'
   TERM: xterm
 
-defaults:
-  run:
-    working-directory: ./officina
+# defaults:
+#   run:
+#     working-directory: ./officina
 
 jobs:
   "a1568346_20220619":
@@ -67,7 +67,7 @@ jobs:
 
       #### Fetch data __________________________________________________________
 
-      - name: MDCIII/1568346_20220619
+      - name: apothēca [MDCIII/1568346_20220619]
         uses: actions/checkout@v3
 
       # - name: EticaAI/lexicographi-sine-finibus
@@ -76,12 +76,35 @@ jobs:
       #     repository: EticaAI/lexicographi-sine-finibus
       #     path: officina/999999/3133368/lexicographi-sine-finibus
 
-      - name: MDCIII/999999_1603_16
+      - name: MDCIII/1603_16_24
         uses: actions/checkout@v3
         continue-on-error: true
         with:
-          repository: MDCIII/999999_1603_16
-          path: officina/999999/3133368/999999_1603_16
+          repository: MDCIII/1603_16_24
+          path: officina/999999/3133368/1603_16_24
+
+      # - run: mkdir -p officina/1603/16/24
+
+      - name: "[MDCIII/1603_16_24 -> apothēca]"
+        run: >
+          rsync --verbose --human-readable --checksum --recursive
+          officina/999999/3133368/1603_16_24/1603/16/24/
+          officina/1603/16/24
+        continue-on-error: true
+
+      # - name: MDCIII/1603_16_24 -> apothēca
+      #   uses: actions/checkout@v3
+      #   continue-on-error: true
+      #   with:
+      #     repository: MDCIII/1603_16_24
+      #     path: officina/999999/3133368/1603_16_24
+
+      # - name: MDCIII/999999_1603_16
+      #   uses: actions/checkout@v3
+      #   continue-on-error: true
+      #   with:
+      #     repository: MDCIII/999999_1603_16
+      #     path: officina/999999/3133368/999999_1603_16
 
       # Debug part, remove later, START
       - run: pwd
@@ -236,3 +259,12 @@ jobs:
 
       # - run: ./999999999/1603_16.workflow.sh
       #   continue-on-error: true
+
+      # Debug part, remove later, START
+      - run: pwd
+      - run: find * -type f
+        continue-on-error: true
+      - run: pwd
+      - run: git status
+        continue-on-error: true
+      # # Debug part, remove later, END
