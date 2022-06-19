@@ -284,6 +284,15 @@ jobs:
       # - run: ./999999999/1603_16.workflow.sh
       #   continue-on-error: true
 
+      - name: commit changes if necessary
+        continue-on-error: true
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "Data"
+          git push
+
       # Debug part, remove later, START
       - run: pwd
       - run: find * -type f
