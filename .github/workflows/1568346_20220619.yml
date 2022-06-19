@@ -87,6 +87,10 @@ jobs:
       - name: "[EticaAI/lsf-cache/1603/1/1603 -> apothēca]"
         run: >
           rsync --verbose --human-readable --checksum --recursive
+          --prune-empty-dirs
+          --include "*/"
+          --include="*.ttl" --include="*.owl"  --include="*.csv"
+          --exclude="*"
           officina/999999/3133368/lsf-cache/1603/1/1603/
           officina/1603/1/1603
         continue-on-error: true
@@ -104,6 +108,10 @@ jobs:
       - name: "[MDCIII/1603_16_24/1603/16/24/ -> apothēca]"
         run: >
           rsync --verbose --human-readable --checksum --recursive
+          --prune-empty-dirs
+          --include "*/"
+          --include="*.ttl" --include="*.owl"  --include="*.csv"
+          --exclude="*"
           officina/999999/3133368/1603_16_24/1603/16/24/
           officina/1603/16/24
         continue-on-error: true
