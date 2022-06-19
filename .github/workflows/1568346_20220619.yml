@@ -87,8 +87,8 @@ jobs:
       - name: "[EticaAI/lsf-cache/1603/1/1603 -> apothēca]"
         run: >
           rsync --verbose --human-readable --checksum --recursive
-          EticaAI/lsf-cache/1603/1/1603/
-          officina/1603/1/1603/
+          officina/999999/3133368/lsf-cache/1603/1/1603/
+          officina/1603/1/1603
         continue-on-error: true
 
       # - run: mkdir -p officina/1603/16/24
