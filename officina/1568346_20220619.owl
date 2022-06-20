@@ -8,12 +8,11 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#">
-    <owl:Ontology rdf:about="urn:mdciii:1568346:20220619">
+    <owl:Ontology rdf:about="urn:mdciii:1568346:20220619(1)">
         <owl:imports rdf:resource="urn:mdciii:1603:1:1603(0)"/>
-        <owl:imports rdf:resource="urn:mdciii:1603:16:24:0"/>
-        <owl:imports rdf:resource="urn:mdciii:1603:16:24:1"/>
-        <owl:imports rdf:resource="urn:mdciii:1603:16:24:1(0)"/>
-        <owl:imports rdf:resource="urn:mdciii:1603:16:24:2"/>
-        <owl:imports rdf:resource="urn:mdciii:1603:16:24:3"/>
+        <owl:imports rdf:resource="urn:mdciii:1603:16:24:0(1)"/>
+        <owl:imports rdf:resource="urn:mdciii:1603:16:24:1(1)"/>
+        <owl:imports rdf:resource="urn:mdciii:1603:16:24:2(1)"/>
+        <owl:imports rdf:resource="urn:mdciii:1603:16:24:3(1)"/>
     </owl:Ontology>
 </rdf:RDF>
