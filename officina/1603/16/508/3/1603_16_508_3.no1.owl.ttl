@@ -1,0 +1,2081 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix p: <http://www.wikidata.org/prop/> .
+
+<urn:mdciii:1603:16()>
+    a skos:ConceptScheme ;
+    rdfs:label "(1603:16)" .
+
+<urn:mdciii:1603:16:508()>
+    a skos:Collection ;
+    rdfs:label "(1603:16:508)" ;
+    skos:inScheme <urn:mdciii:1603:16()> ;
+    skos:member <urn:mdciii:1603:16:508:3()> .
+
+<urn:mdciii:1603:16:508:3()>
+    a skos:Collection ;
+    rdfs:label "(1603:16:508:3)" ;
+    skos:member <urn:mdciii:1603:16:508:3:100101>, <urn:mdciii:1603:16:508:3:100102>, <urn:mdciii:1603:16:508:3:100201>, <urn:mdciii:1603:16:508:3:100202>, <urn:mdciii:1603:16:508:3:100203>, <urn:mdciii:1603:16:508:3:100301>, <urn:mdciii:1603:16:508:3:100302>, <urn:mdciii:1603:16:508:3:100401>, <urn:mdciii:1603:16:508:3:100402>, <urn:mdciii:1603:16:508:3:100403>, <urn:mdciii:1603:16:508:3:100501>, <urn:mdciii:1603:16:508:3:100502>, <urn:mdciii:1603:16:508:3:100601>, <urn:mdciii:1603:16:508:3:100701>, <urn:mdciii:1603:16:508:3:100801>, <urn:mdciii:1603:16:508:3:100802>, <urn:mdciii:1603:16:508:3:100901>, <urn:mdciii:1603:16:508:3:100902>, <urn:mdciii:1603:16:508:3:100903>, <urn:mdciii:1603:16:508:3:101001>, <urn:mdciii:1603:16:508:3:10102>, <urn:mdciii:1603:16:508:3:10103>, <urn:mdciii:1603:16:508:3:101101>, <urn:mdciii:1603:16:508:3:101102>, <urn:mdciii:1603:16:508:3:101103>, <urn:mdciii:1603:16:508:3:101104>, <urn:mdciii:1603:16:508:3:101201>, <urn:mdciii:1603:16:508:3:101202>, <urn:mdciii:1603:16:508:3:101203>, <urn:mdciii:1603:16:508:3:101301>, <urn:mdciii:1603:16:508:3:101302>, <urn:mdciii:1603:16:508:3:101303>, <urn:mdciii:1603:16:508:3:101401>, <urn:mdciii:1603:16:508:3:101402>, <urn:mdciii:1603:16:508:3:101501>, <urn:mdciii:1603:16:508:3:101502>, <urn:mdciii:1603:16:508:3:101503>, <urn:mdciii:1603:16:508:3:10201>, <urn:mdciii:1603:16:508:3:10202>, <urn:mdciii:1603:16:508:3:10203>, <urn:mdciii:1603:16:508:3:10204>, <urn:mdciii:1603:16:508:3:10301>, <urn:mdciii:1603:16:508:3:10302>, <urn:mdciii:1603:16:508:3:10303>, <urn:mdciii:1603:16:508:3:10304>, <urn:mdciii:1603:16:508:3:10305>, <urn:mdciii:1603:16:508:3:10306>, <urn:mdciii:1603:16:508:3:10401>, <urn:mdciii:1603:16:508:3:10501>, <urn:mdciii:1603:16:508:3:10502>, <urn:mdciii:1603:16:508:3:10601>, <urn:mdciii:1603:16:508:3:10602>, <urn:mdciii:1603:16:508:3:10603>, <urn:mdciii:1603:16:508:3:10604>, <urn:mdciii:1603:16:508:3:10701>, <urn:mdciii:1603:16:508:3:10702>, <urn:mdciii:1603:16:508:3:10801>, <urn:mdciii:1603:16:508:3:10802>, <urn:mdciii:1603:16:508:3:10901>, <urn:mdciii:1603:16:508:3:10902>, <urn:mdciii:1603:16:508:3:11001>, <urn:mdciii:1603:16:508:3:11002>, <urn:mdciii:1603:16:508:3:11003>, <urn:mdciii:1603:16:508:3:110101>, <urn:mdciii:1603:16:508:3:110102>, <urn:mdciii:1603:16:508:3:110201>, <urn:mdciii:1603:16:508:3:110202>, <urn:mdciii:1603:16:508:3:110301>, <urn:mdciii:1603:16:508:3:110401>, <urn:mdciii:1603:16:508:3:110501>, <urn:mdciii:1603:16:508:3:110502>, <urn:mdciii:1603:16:508:3:110601>, <urn:mdciii:1603:16:508:3:110602>, <urn:mdciii:1603:16:508:3:110603>, <urn:mdciii:1603:16:508:3:110701>, <urn:mdciii:1603:16:508:3:110702>, <urn:mdciii:1603:16:508:3:110801>, <urn:mdciii:1603:16:508:3:110802>, <urn:mdciii:1603:16:508:3:110901>, <urn:mdciii:1603:16:508:3:111001>, <urn:mdciii:1603:16:508:3:111002>, <urn:mdciii:1603:16:508:3:111003>, <urn:mdciii:1603:16:508:3:111004>, <urn:mdciii:1603:16:508:3:11101>, <urn:mdciii:1603:16:508:3:11102>, <urn:mdciii:1603:16:508:3:11103>, <urn:mdciii:1603:16:508:3:11104>, <urn:mdciii:1603:16:508:3:11105>, <urn:mdciii:1603:16:508:3:111101>, <urn:mdciii:1603:16:508:3:111102>, <urn:mdciii:1603:16:508:3:111201>, <urn:mdciii:1603:16:508:3:111301>, <urn:mdciii:1603:16:508:3:111302>, <urn:mdciii:1603:16:508:3:111303>, <urn:mdciii:1603:16:508:3:111401>, <urn:mdciii:1603:16:508:3:111402>, <urn:mdciii:1603:16:508:3:111403>, <urn:mdciii:1603:16:508:3:111501>, <urn:mdciii:1603:16:508:3:111502>, <urn:mdciii:1603:16:508:3:111601>, <urn:mdciii:1603:16:508:3:111701>, <urn:mdciii:1603:16:508:3:111702>, <urn:mdciii:1603:16:508:3:111801>, <urn:mdciii:1603:16:508:3:111802>, <urn:mdciii:1603:16:508:3:111803>, <urn:mdciii:1603:16:508:3:111901>, <urn:mdciii:1603:16:508:3:112001>, <urn:mdciii:1603:16:508:3:112002>, <urn:mdciii:1603:16:508:3:11201>, <urn:mdciii:1603:16:508:3:11202>, <urn:mdciii:1603:16:508:3:11203>, <urn:mdciii:1603:16:508:3:11204>, <urn:mdciii:1603:16:508:3:11205>, <urn:mdciii:1603:16:508:3:112101>, <urn:mdciii:1603:16:508:3:112102>, <urn:mdciii:1603:16:508:3:112201>, <urn:mdciii:1603:16:508:3:112301>, <urn:mdciii:1603:16:508:3:112302>, <urn:mdciii:1603:16:508:3:112303>, <urn:mdciii:1603:16:508:3:11301>, <urn:mdciii:1603:16:508:3:11302>, <urn:mdciii:1603:16:508:3:11303>, <urn:mdciii:1603:16:508:3:11401>, <urn:mdciii:1603:16:508:3:11402>, <urn:mdciii:1603:16:508:3:11403>, <urn:mdciii:1603:16:508:3:11404>, <urn:mdciii:1603:16:508:3:11405>, <urn:mdciii:1603:16:508:3:11406>, <urn:mdciii:1603:16:508:3:11501>, <urn:mdciii:1603:16:508:3:11502>, <urn:mdciii:1603:16:508:3:11601>, <urn:mdciii:1603:16:508:3:11602>, <urn:mdciii:1603:16:508:3:11603>, <urn:mdciii:1603:16:508:3:11604>, <urn:mdciii:1603:16:508:3:11801>, <urn:mdciii:1603:16:508:3:11802>, <urn:mdciii:1603:16:508:3:11803>, <urn:mdciii:1603:16:508:3:20101>, <urn:mdciii:1603:16:508:3:20102>, <urn:mdciii:1603:16:508:3:20103>, <urn:mdciii:1603:16:508:3:20104>, <urn:mdciii:1603:16:508:3:20105>, <urn:mdciii:1603:16:508:3:20201>, <urn:mdciii:1603:16:508:3:20202>, <urn:mdciii:1603:16:508:3:20203>, <urn:mdciii:1603:16:508:3:20204>, <urn:mdciii:1603:16:508:3:20205>, <urn:mdciii:1603:16:508:3:20206>, <urn:mdciii:1603:16:508:3:20301>, <urn:mdciii:1603:16:508:3:20302>, <urn:mdciii:1603:16:508:3:20401>, <urn:mdciii:1603:16:508:3:20402>, <urn:mdciii:1603:16:508:3:20501>, <urn:mdciii:1603:16:508:3:20502>, <urn:mdciii:1603:16:508:3:20503>, <urn:mdciii:1603:16:508:3:20504>, <urn:mdciii:1603:16:508:3:20601>, <urn:mdciii:1603:16:508:3:20602>, <urn:mdciii:1603:16:508:3:20603>, <urn:mdciii:1603:16:508:3:20701>, <urn:mdciii:1603:16:508:3:20801>, <urn:mdciii:1603:16:508:3:20802>, <urn:mdciii:1603:16:508:3:20803>, <urn:mdciii:1603:16:508:3:20804>, <urn:mdciii:1603:16:508:3:20901>, <urn:mdciii:1603:16:508:3:20902>, <urn:mdciii:1603:16:508:3:20903>, <urn:mdciii:1603:16:508:3:21001>, <urn:mdciii:1603:16:508:3:21002>, <urn:mdciii:1603:16:508:3:21003>, <urn:mdciii:1603:16:508:3:21101>, <urn:mdciii:1603:16:508:3:21102>, <urn:mdciii:1603:16:508:3:21103>, <urn:mdciii:1603:16:508:3:21104>, <urn:mdciii:1603:16:508:3:21105>, <urn:mdciii:1603:16:508:3:21201>, <urn:mdciii:1603:16:508:3:21301>, <urn:mdciii:1603:16:508:3:21302>, <urn:mdciii:1603:16:508:3:21401>, <urn:mdciii:1603:16:508:3:21402>, <urn:mdciii:1603:16:508:3:21403>, <urn:mdciii:1603:16:508:3:30101>, <urn:mdciii:1603:16:508:3:30201>, <urn:mdciii:1603:16:508:3:30202>, <urn:mdciii:1603:16:508:3:30301>, <urn:mdciii:1603:16:508:3:30302>, <urn:mdciii:1603:16:508:3:30401>, <urn:mdciii:1603:16:508:3:30402>, <urn:mdciii:1603:16:508:3:30501>, <urn:mdciii:1603:16:508:3:30502>, <urn:mdciii:1603:16:508:3:30601>, <urn:mdciii:1603:16:508:3:30602>, <urn:mdciii:1603:16:508:3:30701>, <urn:mdciii:1603:16:508:3:30702>, <urn:mdciii:1603:16:508:3:30801>, <urn:mdciii:1603:16:508:3:30802>, <urn:mdciii:1603:16:508:3:30803>, <urn:mdciii:1603:16:508:3:30901>, <urn:mdciii:1603:16:508:3:30902>, <urn:mdciii:1603:16:508:3:31001>, <urn:mdciii:1603:16:508:3:31101>, <urn:mdciii:1603:16:508:3:31102>, <urn:mdciii:1603:16:508:3:31201>, <urn:mdciii:1603:16:508:3:31202>, <urn:mdciii:1603:16:508:3:31203>, <urn:mdciii:1603:16:508:3:31301>, <urn:mdciii:1603:16:508:3:31302>, <urn:mdciii:1603:16:508:3:31401>, <urn:mdciii:1603:16:508:3:31402>, <urn:mdciii:1603:16:508:3:40101>, <urn:mdciii:1603:16:508:3:40102>, <urn:mdciii:1603:16:508:3:40103>, <urn:mdciii:1603:16:508:3:40201>, <urn:mdciii:1603:16:508:3:40301>, <urn:mdciii:1603:16:508:3:40302>, <urn:mdciii:1603:16:508:3:40303>, <urn:mdciii:1603:16:508:3:40304>, <urn:mdciii:1603:16:508:3:40401>, <urn:mdciii:1603:16:508:3:40402>, <urn:mdciii:1603:16:508:3:40403>, <urn:mdciii:1603:16:508:3:40404>, <urn:mdciii:1603:16:508:3:40501>, <urn:mdciii:1603:16:508:3:40502>, <urn:mdciii:1603:16:508:3:40601>, <urn:mdciii:1603:16:508:3:40602>, <urn:mdciii:1603:16:508:3:40701>, <urn:mdciii:1603:16:508:3:40702>, <urn:mdciii:1603:16:508:3:40703>, <urn:mdciii:1603:16:508:3:40801>, <urn:mdciii:1603:16:508:3:40802>, <urn:mdciii:1603:16:508:3:40803>, <urn:mdciii:1603:16:508:3:40804>, <urn:mdciii:1603:16:508:3:40901>, <urn:mdciii:1603:16:508:3:40902>, <urn:mdciii:1603:16:508:3:40903>, <urn:mdciii:1603:16:508:3:41001>, <urn:mdciii:1603:16:508:3:41002>, <urn:mdciii:1603:16:508:3:41003>, <urn:mdciii:1603:16:508:3:41004>, <urn:mdciii:1603:16:508:3:41101>, <urn:mdciii:1603:16:508:3:41102>, <urn:mdciii:1603:16:508:3:41103>, <urn:mdciii:1603:16:508:3:41201>, <urn:mdciii:1603:16:508:3:41202>, <urn:mdciii:1603:16:508:3:50101>, <urn:mdciii:1603:16:508:3:50102>, <urn:mdciii:1603:16:508:3:50201>, <urn:mdciii:1603:16:508:3:50301>, <urn:mdciii:1603:16:508:3:50302>, <urn:mdciii:1603:16:508:3:50303>, <urn:mdciii:1603:16:508:3:50304>, <urn:mdciii:1603:16:508:3:50305>, <urn:mdciii:1603:16:508:3:50401>, <urn:mdciii:1603:16:508:3:50402>, <urn:mdciii:1603:16:508:3:50403>, <urn:mdciii:1603:16:508:3:50404>, <urn:mdciii:1603:16:508:3:50405>, <urn:mdciii:1603:16:508:3:50406>, <urn:mdciii:1603:16:508:3:50501>, <urn:mdciii:1603:16:508:3:50502>, <urn:mdciii:1603:16:508:3:50601>, <urn:mdciii:1603:16:508:3:50602>, <urn:mdciii:1603:16:508:3:50603>, <urn:mdciii:1603:16:508:3:50604>, <urn:mdciii:1603:16:508:3:50605>, <urn:mdciii:1603:16:508:3:50701>, <urn:mdciii:1603:16:508:3:50702>, <urn:mdciii:1603:16:508:3:50703>, <urn:mdciii:1603:16:508:3:50704>, <urn:mdciii:1603:16:508:3:50801>, <urn:mdciii:1603:16:508:3:50802>, <urn:mdciii:1603:16:508:3:60101>, <urn:mdciii:1603:16:508:3:70101>, <urn:mdciii:1603:16:508:3:70102>, <urn:mdciii:1603:16:508:3:70103>, <urn:mdciii:1603:16:508:3:70104>, <urn:mdciii:1603:16:508:3:70201>, <urn:mdciii:1603:16:508:3:70301>, <urn:mdciii:1603:16:508:3:70302>, <urn:mdciii:1603:16:508:3:70303>, <urn:mdciii:1603:16:508:3:70401>, <urn:mdciii:1603:16:508:3:70402>, <urn:mdciii:1603:16:508:3:70501>, <urn:mdciii:1603:16:508:3:70502>, <urn:mdciii:1603:16:508:3:70601>, <urn:mdciii:1603:16:508:3:70602>, <urn:mdciii:1603:16:508:3:70701>, <urn:mdciii:1603:16:508:3:70702>, <urn:mdciii:1603:16:508:3:70801>, <urn:mdciii:1603:16:508:3:70802>, <urn:mdciii:1603:16:508:3:70803>, <urn:mdciii:1603:16:508:3:70901>, <urn:mdciii:1603:16:508:3:70902>, <urn:mdciii:1603:16:508:3:70903>, <urn:mdciii:1603:16:508:3:70904>, <urn:mdciii:1603:16:508:3:71001>, <urn:mdciii:1603:16:508:3:71002>, <urn:mdciii:1603:16:508:3:71003>, <urn:mdciii:1603:16:508:3:71004>, <urn:mdciii:1603:16:508:3:71101>, <urn:mdciii:1603:16:508:3:71102>, <urn:mdciii:1603:16:508:3:71103>, <urn:mdciii:1603:16:508:3:71104>, <urn:mdciii:1603:16:508:3:71201>, <urn:mdciii:1603:16:508:3:71202>, <urn:mdciii:1603:16:508:3:71301>, <urn:mdciii:1603:16:508:3:71302>, <urn:mdciii:1603:16:508:3:71303>, <urn:mdciii:1603:16:508:3:71304>, <urn:mdciii:1603:16:508:3:71305>, <urn:mdciii:1603:16:508:3:71401>, <urn:mdciii:1603:16:508:3:71402>, <urn:mdciii:1603:16:508:3:71501>, <urn:mdciii:1603:16:508:3:71502>, <urn:mdciii:1603:16:508:3:71503>, <urn:mdciii:1603:16:508:3:71601>, <urn:mdciii:1603:16:508:3:71602>, <urn:mdciii:1603:16:508:3:71603>, <urn:mdciii:1603:16:508:3:71701>, <urn:mdciii:1603:16:508:3:71702>, <urn:mdciii:1603:16:508:3:71703>, <urn:mdciii:1603:16:508:3:71801>, <urn:mdciii:1603:16:508:3:71802>, <urn:mdciii:1603:16:508:3:71803>, <urn:mdciii:1603:16:508:3:71901>, <urn:mdciii:1603:16:508:3:72001>, <urn:mdciii:1603:16:508:3:72002>, <urn:mdciii:1603:16:508:3:72101>, <urn:mdciii:1603:16:508:3:72102>, <urn:mdciii:1603:16:508:3:72103>, <urn:mdciii:1603:16:508:3:72201>, <urn:mdciii:1603:16:508:3:72202>, <urn:mdciii:1603:16:508:3:72203>, <urn:mdciii:1603:16:508:3:72204>, <urn:mdciii:1603:16:508:3:72301>, <urn:mdciii:1603:16:508:3:72302>, <urn:mdciii:1603:16:508:3:72303>, <urn:mdciii:1603:16:508:3:80101>, <urn:mdciii:1603:16:508:3:80102>, <urn:mdciii:1603:16:508:3:80103>, <urn:mdciii:1603:16:508:3:80201>, <urn:mdciii:1603:16:508:3:80301>, <urn:mdciii:1603:16:508:3:80302>, <urn:mdciii:1603:16:508:3:80303>, <urn:mdciii:1603:16:508:3:80401>, <urn:mdciii:1603:16:508:3:80501>, <urn:mdciii:1603:16:508:3:80601>, <urn:mdciii:1603:16:508:3:80602>, <urn:mdciii:1603:16:508:3:80603>, <urn:mdciii:1603:16:508:3:80604>, <urn:mdciii:1603:16:508:3:80701>, <urn:mdciii:1603:16:508:3:80801>, <urn:mdciii:1603:16:508:3:80802>, <urn:mdciii:1603:16:508:3:80803>, <urn:mdciii:1603:16:508:3:80901>, <urn:mdciii:1603:16:508:3:80902>, <urn:mdciii:1603:16:508:3:81001>, <urn:mdciii:1603:16:508:3:81002>, <urn:mdciii:1603:16:508:3:81003>, <urn:mdciii:1603:16:508:3:81101>, <urn:mdciii:1603:16:508:3:81102>, <urn:mdciii:1603:16:508:3:81201>, <urn:mdciii:1603:16:508:3:81202>, <urn:mdciii:1603:16:508:3:81301>, <urn:mdciii:1603:16:508:3:81302>, <urn:mdciii:1603:16:508:3:81401>, <urn:mdciii:1603:16:508:3:81402>, <urn:mdciii:1603:16:508:3:81501>, <urn:mdciii:1603:16:508:3:81502>, <urn:mdciii:1603:16:508:3:81601>, <urn:mdciii:1603:16:508:3:81602>, <urn:mdciii:1603:16:508:3:81701>, <urn:mdciii:1603:16:508:3:81702>, <urn:mdciii:1603:16:508:3:81801>, <urn:mdciii:1603:16:508:3:81802>, <urn:mdciii:1603:16:508:3:81901>, <urn:mdciii:1603:16:508:3:81902>, <urn:mdciii:1603:16:508:3:81903>, <urn:mdciii:1603:16:508:3:81904>, <urn:mdciii:1603:16:508:3:90101>, <urn:mdciii:1603:16:508:3:90102>, <urn:mdciii:1603:16:508:3:90103>, <urn:mdciii:1603:16:508:3:90201>, <urn:mdciii:1603:16:508:3:90202>, <urn:mdciii:1603:16:508:3:90203>, <urn:mdciii:1603:16:508:3:90301>, <urn:mdciii:1603:16:508:3:90302>, <urn:mdciii:1603:16:508:3:90303>, <urn:mdciii:1603:16:508:3:90401>, <urn:mdciii:1603:16:508:3:90402>, <urn:mdciii:1603:16:508:3:90501>, <urn:mdciii:1603:16:508:3:90502>, <urn:mdciii:1603:16:508:3:90503>, <urn:mdciii:1603:16:508:3:90601>, <urn:mdciii:1603:16:508:3:90701>, <urn:mdciii:1603:16:508:3:90702>, <urn:mdciii:1603:16:508:3:90801>, <urn:mdciii:1603:16:508:3:90802>, <urn:mdciii:1603:16:508:3:90803>, <urn:mdciii:1603:16:508:3:90901>, <urn:mdciii:1603:16:508:3:90902>, <urn:mdciii:1603:16:508:3:91001>, <urn:mdciii:1603:16:508:3:91002>, <urn:mdciii:1603:16:508:3:91003>, <urn:mdciii:1603:16:508:3:91101>, <urn:mdciii:1603:16:508:3:91102>, <urn:mdciii:1603:16:508:3:91201>, <urn:mdciii:1603:16:508:3:91202>, <urn:mdciii:1603:16:508:3:91301>, <urn:mdciii:1603:16:508:3:91302> .
+
+<urn:mdciii:1603:16:508:3(1)>
+    a owl:Ontology .
+
+<urn:mdciii:1603:16:508:3:100101>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:100101" ;
+    skos:prefLabel "Domue"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:100102>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:100102" ;
+    skos:prefLabel "Ulongue"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:100201>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:100201" ;
+    skos:prefLabel "Chintholo"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:100202>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:100202" ;
+    skos:prefLabel "Chitima"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:100203>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:100203" ;
+    skos:prefLabel "Songo"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:100301>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:100301" ;
+    skos:prefLabel "Chipembere"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:100302>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:100302" ;
+    skos:prefLabel "Luenha"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:100401>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:100401" ;
+    skos:prefLabel "Chifunde"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:100402>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:100402" ;
+    skos:prefLabel "Mualadze"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:100403>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:100403" ;
+    skos:prefLabel "Nsadzu"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:100501>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:100501" ;
+    skos:prefLabel "Kazula"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:100502>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:100502" ;
+    skos:prefLabel "Manje"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:100601>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:100601" ;
+    skos:prefLabel "Cidade De Tete"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:100701>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:100701" ;
+    skos:prefLabel "Doa"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:100801>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:100801" ;
+    skos:prefLabel "Chidzolomondo"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:100802>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:100802" ;
+    skos:prefLabel "Furancungo"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:100901>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:100901" ;
+    skos:prefLabel "Chinthopo"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:100902>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:100902" ;
+    skos:prefLabel "Mphende"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:100903>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:100903" ;
+    skos:prefLabel "Mukumbura"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:101001>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:101001" ;
+    skos:prefLabel "Marara"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:10101>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:10101" ;
+    skos:prefLabel "Ancuabe"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:10102>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:10102" ;
+    skos:prefLabel "Mesa"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:10103>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:10103" ;
+    skos:prefLabel "Metoro"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:101101>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:101101" ;
+    skos:prefLabel "Chipera"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:101102>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:101102" ;
+    skos:prefLabel "Chiputu"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:101103>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:101103" ;
+    skos:prefLabel "Fingoe"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:101104>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:101104" ;
+    skos:prefLabel "Malowera"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:101201>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:101201" ;
+    skos:prefLabel "Kambulatsisi"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:101202>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:101202" ;
+    skos:prefLabel "Moatize"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:101203>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:101203" ;
+    skos:prefLabel "Zobue"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:101301>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:101301" ;
+    skos:prefLabel "Charre"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:101302>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:101302" ;
+    skos:prefLabel "Inhangoma"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:101303>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:101303" ;
+    skos:prefLabel "Nhamayabue"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:101401>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:101401" ;
+    skos:prefLabel "Ntengo-Wa-Mbalame"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:101402>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:101402" ;
+    skos:prefLabel "Tsangano"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:101501>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:101501" ;
+    skos:prefLabel "Muze"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:101502>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:101502" ;
+    skos:prefLabel "Zambue"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:101503>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:101503" ;
+    skos:prefLabel "Zumbu"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:10201>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:10201" ;
+    skos:prefLabel "Balama"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:10202>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:10202" ;
+    skos:prefLabel "Impiri"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:10203>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:10203" ;
+    skos:prefLabel "Kuekue"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:10204>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:10204" ;
+    skos:prefLabel "Mavala"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:10301>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:10301" ;
+    skos:prefLabel "Chiure"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:10302>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:10302" ;
+    skos:prefLabel "Chiure Velho"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:10303>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:10303" ;
+    skos:prefLabel "Katapua"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:10304>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:10304" ;
+    skos:prefLabel "Mazeze"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:10305>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:10305" ;
+    skos:prefLabel "Namogelia"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:10306>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:10306" ;
+    skos:prefLabel "Ocua"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:10401>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:10401" ;
+    skos:prefLabel "Cidade De Pemba"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:10501>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:10501" ;
+    skos:prefLabel "Ibo"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:10502>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:10502" ;
+    skos:prefLabel "Quirimba"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:10601>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:10601" ;
+    skos:prefLabel "Chai"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:10602>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:10602" ;
+    skos:prefLabel "Macomia"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:10603>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:10603" ;
+    skos:prefLabel "Mucojo"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:10604>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:10604" ;
+    skos:prefLabel "Quiterajo"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:10701>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:10701" ;
+    skos:prefLabel "Mecufi"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:10702>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:10702" ;
+    skos:prefLabel "Murrebue"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:10801>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:10801" ;
+    skos:prefLabel "Meluco"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:10802>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:10802" ;
+    skos:prefLabel "Muaguide"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:10901>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:10901" ;
+    skos:prefLabel "Metuge"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:10902>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:10902" ;
+    skos:prefLabel "Mieze"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:11001>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:11001" ;
+    skos:prefLabel "Diaca"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:11002>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:11002" ;
+    skos:prefLabel "Mbau"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:11003>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:11003" ;
+    skos:prefLabel "Mocimboa Da Praia"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:110101>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:110101" ;
+    skos:prefLabel "Alto Molocue"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:110102>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:110102" ;
+    skos:prefLabel "Nauela"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:110201>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:110201" ;
+    skos:prefLabel "Chinde"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:110202>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:110202" ;
+    skos:prefLabel "Micaune"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:110301>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:110301" ;
+    skos:prefLabel "Cidade De Quelimane"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:110401>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:110401" ;
+    skos:prefLabel "Derre"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:110501>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:110501" ;
+    skos:prefLabel "Alto Ligonha"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:110502>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:110502" ;
+    skos:prefLabel "Gile"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:110601>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:110601" ;
+    skos:prefLabel "Gurue"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:110602>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:110602" ;
+    skos:prefLabel "Lioma"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:110603>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:110603" ;
+    skos:prefLabel "Mepuagiua"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:110701>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:110701" ;
+    skos:prefLabel "Ile"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:110702>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:110702" ;
+    skos:prefLabel "Socone"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:110801>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:110801" ;
+    skos:prefLabel "Gonhane"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:110802>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:110802" ;
+    skos:prefLabel "Inhassunge"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:110901>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:110901" ;
+    skos:prefLabel "Luabo"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:111001>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:111001" ;
+    skos:prefLabel "Lugela"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:111002>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:111002" ;
+    skos:prefLabel "Muabanama"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:111003>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:111003" ;
+    skos:prefLabel "Munhamade"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:111004>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:111004" ;
+    skos:prefLabel "Tacuane"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:11101>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:11101" ;
+    skos:prefLabel "Mapupulo"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:11102>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:11102" ;
+    skos:prefLabel "Mirate"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:11103>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:11103" ;
+    skos:prefLabel "Montepuez"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:11104>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:11104" ;
+    skos:prefLabel "Nairoto"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:11105>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:11105" ;
+    skos:prefLabel "Namanhumbir"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:111101>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:111101" ;
+    skos:prefLabel "Maganja"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:111102>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:111102" ;
+    skos:prefLabel "Nante"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:111201>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:111201" ;
+    skos:prefLabel "Maquival"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:111301>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:111301" ;
+    skos:prefLabel "Majaua"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:111302>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:111302" ;
+    skos:prefLabel "Milange"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:111303>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:111303" ;
+    skos:prefLabel "Mongue"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:111401>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:111401" ;
+    skos:prefLabel "Mocuba"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:111402>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:111402" ;
+    skos:prefLabel "Mugeba"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:111403>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:111403" ;
+    skos:prefLabel "Namanjavira"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:111501>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:111501" ;
+    skos:prefLabel "Bajone"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:111502>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:111502" ;
+    skos:prefLabel "Mocubela"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:111601>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:111601" ;
+    skos:prefLabel "Molumbo"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:111701>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:111701" ;
+    skos:prefLabel "Campo"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:111702>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:111702" ;
+    skos:prefLabel "Mopeia"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:111801>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:111801" ;
+    skos:prefLabel "Chire"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:111802>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:111802" ;
+    skos:prefLabel "Megaza"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:111803>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:111803" ;
+    skos:prefLabel "Morrumbala"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:111901>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:111901" ;
+    skos:prefLabel "Mulevala"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:112001>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:112001" ;
+    skos:prefLabel "Macuze"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:112002>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:112002" ;
+    skos:prefLabel "Namacurra"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:11201>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:11201" ;
+    skos:prefLabel "Chapa"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:11202>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:11202" ;
+    skos:prefLabel "Imbuo"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:11203>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:11203" ;
+    skos:prefLabel "Mueda"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:11204>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:11204" ;
+    skos:prefLabel "N'Gapa"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:11205>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:11205" ;
+    skos:prefLabel "Negomano"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:112101>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:112101" ;
+    skos:prefLabel "Namarroi"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:112102>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:112102" ;
+    skos:prefLabel "Regone"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:112201>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:112201" ;
+    skos:prefLabel "Nicoadala"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:112301>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:112301" ;
+    skos:prefLabel "Mualama"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:112302>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:112302" ;
+    skos:prefLabel "Naburi"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:112303>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:112303" ;
+    skos:prefLabel "Pebane"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:11301>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:11301" ;
+    skos:prefLabel "Chitunda"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:11302>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:11302" ;
+    skos:prefLabel "Miteda"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:11303>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:11303" ;
+    skos:prefLabel "Muidumbe"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:11401>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:11401" ;
+    skos:prefLabel "Hucula"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:11402>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:11402" ;
+    skos:prefLabel "Machoca"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:11403>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:11403" ;
+    skos:prefLabel "Meloco"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:11404>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:11404" ;
+    skos:prefLabel "N'Cumpe"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:11405>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:11405" ;
+    skos:prefLabel "Namuno"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:11406>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:11406" ;
+    skos:prefLabel "Papai"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:11501>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:11501" ;
+    skos:prefLabel "M'Tamba"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:11502>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:11502" ;
+    skos:prefLabel "Nangade"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:11601>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:11601" ;
+    skos:prefLabel "Olumbi"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:11602>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:11602" ;
+    skos:prefLabel "Palma"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:11603>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:11603" ;
+    skos:prefLabel "Pundanhar"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:11604>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:11604" ;
+    skos:prefLabel "Quionga"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:11801>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:11801" ;
+    skos:prefLabel "Bilibiza"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:11802>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:11802" ;
+    skos:prefLabel "Mahate"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:11803>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:11803" ;
+    skos:prefLabel "Quissanga"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:20101>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:20101" ;
+    skos:prefLabel "Macia"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:20102>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:20102" ;
+    skos:prefLabel "Makluane"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:20103>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:20103" ;
+    skos:prefLabel "Mazivila"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:20104>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:20104" ;
+    skos:prefLabel "Messano"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:20105>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:20105" ;
+    skos:prefLabel "Praia De Bilene"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:20201>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:20201" ;
+    skos:prefLabel "Alto Changane"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:20202>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:20202" ;
+    skos:prefLabel "Chaimite"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:20203>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:20203" ;
+    skos:prefLabel "Changanine"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:20204>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:20204" ;
+    skos:prefLabel "Chibuto"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:20205>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:20205" ;
+    skos:prefLabel "Godide"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:20206>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:20206" ;
+    skos:prefLabel "Malehice"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:20301>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:20301" ;
+    skos:prefLabel "Pafuri"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:20302>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:20302" ;
+    skos:prefLabel "Vila Eduardo Mondlane"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:20401>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:20401" ;
+    skos:prefLabel "Chigubo"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:20402>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:20402" ;
+    skos:prefLabel "Dindiza"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:20501>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:20501" ;
+    skos:prefLabel "Chokwe"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:20502>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:20502" ;
+    skos:prefLabel "Lionde"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:20503>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:20503" ;
+    skos:prefLabel "Macarretane"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:20504>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:20504" ;
+    skos:prefLabel "Xilembene"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:20601>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:20601" ;
+    skos:prefLabel "Chongoene"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:20602>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:20602" ;
+    skos:prefLabel "Madzucane"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:20603>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:20603" ;
+    skos:prefLabel "Nguzene"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:20701>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:20701" ;
+    skos:prefLabel "Cidade De Xai-Xai"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:20801>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:20801" ;
+    skos:prefLabel "Caniçado"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:20802>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:20802" ;
+    skos:prefLabel "Chivongoene"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:20803>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:20803" ;
+    skos:prefLabel "Mubangoene"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:20804>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:20804" ;
+    skos:prefLabel "Nalazi"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:20901>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:20901" ;
+    skos:prefLabel "Chicumbane"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:20902>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:20902" ;
+    skos:prefLabel "Chissano"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:20903>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:20903" ;
+    skos:prefLabel "Zongoene"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:21001>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:21001" ;
+    skos:prefLabel "Combomune"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:21002>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:21002" ;
+    skos:prefLabel "Mabalane"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:21003>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:21003" ;
+    skos:prefLabel "Ntlavene"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:21101>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:21101" ;
+    skos:prefLabel "Chibonzane"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:21102>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:21102" ;
+    skos:prefLabel "Chidenguele"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:21103>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:21103" ;
+    skos:prefLabel "Macuacua"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:21104>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:21104" ;
+    skos:prefLabel "Mandlakaze"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:21105>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:21105" ;
+    skos:prefLabel "Xhalala"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:21201>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:21201" ;
+    skos:prefLabel "Mapai"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:21301>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:21301" ;
+    skos:prefLabel "Massangena"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:21302>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:21302" ;
+    skos:prefLabel "Mavue"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:21401>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:21401" ;
+    skos:prefLabel "Massingir"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:21402>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:21402" ;
+    skos:prefLabel "Mavodze"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:21403>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:21403" ;
+    skos:prefLabel "Zulo"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:30101>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:30101" ;
+    skos:prefLabel "Cidade De Inhambane"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:30201>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:30201" ;
+    skos:prefLabel "Funhalouro"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:30202>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:30202" ;
+    skos:prefLabel "Tome"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:30301>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:30301" ;
+    skos:prefLabel "Nova Mambone"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:30302>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:30302" ;
+    skos:prefLabel "Save"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:30401>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:30401" ;
+    skos:prefLabel "Homoine"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:30402>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:30402" ;
+    skos:prefLabel "Pembe"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:30501>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:30501" ;
+    skos:prefLabel "Inharrime"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:30502>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:30502" ;
+    skos:prefLabel "Mocumbi"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:30601>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:30601" ;
+    skos:prefLabel "Bazaruto"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:30602>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:30602" ;
+    skos:prefLabel "Inhassoro"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:30701>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:30701" ;
+    skos:prefLabel "Cumbana"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:30702>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:30702" ;
+    skos:prefLabel "Jangamo"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:30801>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:30801" ;
+    skos:prefLabel "Mabote"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:30802>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:30802" ;
+    skos:prefLabel "Zimane"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:30803>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:30803" ;
+    skos:prefLabel "Zinave"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:30901>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:30901" ;
+    skos:prefLabel "Chicomo"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:30902>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:30902" ;
+    skos:prefLabel "Massinga"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:31001>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:31001" ;
+    skos:prefLabel "Maxixe"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:31101>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:31101" ;
+    skos:prefLabel "Morrumbene"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:31102>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:31102" ;
+    skos:prefLabel "Mucoduene"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:31201>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:31201" ;
+    skos:prefLabel "Mawayela"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:31202>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:31202" ;
+    skos:prefLabel "Panda"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:31203>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:31203" ;
+    skos:prefLabel "Urrene"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:31301>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:31301" ;
+    skos:prefLabel "Mapinhane"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:31302>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:31302" ;
+    skos:prefLabel "Vilankulo"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:31401>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:31401" ;
+    skos:prefLabel "Quissico"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:31402>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:31402" ;
+    skos:prefLabel "Zandamela"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:40101>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:40101" ;
+    skos:prefLabel "Catandica"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:40102>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:40102" ;
+    skos:prefLabel "Choa"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:40103>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:40103" ;
+    skos:prefLabel "Nhampassa"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:40201>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:40201" ;
+    skos:prefLabel "Cidade De Chimoio"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:40301>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:40301" ;
+    skos:prefLabel "Amatongas"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:40302>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:40302" ;
+    skos:prefLabel "Cafumpe"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:40303>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:40303" ;
+    skos:prefLabel "Gondola"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:40304>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:40304" ;
+    skos:prefLabel "Inchope"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:40401>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:40401" ;
+    skos:prefLabel "Guro"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:40402>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:40402" ;
+    skos:prefLabel "Mandie"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:40403>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:40403" ;
+    skos:prefLabel "Mungari"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:40404>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:40404" ;
+    skos:prefLabel "Nhamassonge"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:40501>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:40501" ;
+    skos:prefLabel "Macate"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:40502>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:40502" ;
+    skos:prefLabel "Zembe"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:40601>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:40601" ;
+    skos:prefLabel "Chitobe"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:40602>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:40602" ;
+    skos:prefLabel "Save"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:40701>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:40701" ;
+    skos:prefLabel "Macossa"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:40702>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:40702" ;
+    skos:prefLabel "Nguawala"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:40703>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:40703" ;
+    skos:prefLabel "Nhamagua"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:40801>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:40801" ;
+    skos:prefLabel "Machipanda"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:40802>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:40802" ;
+    skos:prefLabel "Manica"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:40803>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:40803" ;
+    skos:prefLabel "Mavonde"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:40804>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:40804" ;
+    skos:prefLabel "Messica"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:40901>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:40901" ;
+    skos:prefLabel "Chiurairue"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:40902>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:40902" ;
+    skos:prefLabel "Dacata"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:40903>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:40903" ;
+    skos:prefLabel "Espungabera"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:41001>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:41001" ;
+    skos:prefLabel "Dombe"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:41002>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:41002" ;
+    skos:prefLabel "Muoha"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:41003>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:41003" ;
+    skos:prefLabel "Rotanda"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:41004>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:41004" ;
+    skos:prefLabel "Sussundenga"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:41101>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:41101" ;
+    skos:prefLabel "Bazua"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:41102>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:41102" ;
+    skos:prefLabel "Nhacafula"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:41103>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:41103" ;
+    skos:prefLabel "Nhacolo"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:41201>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:41201" ;
+    skos:prefLabel "Matsinho"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:41202>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:41202" ;
+    skos:prefLabel "Vanduzi"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:50101>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:50101" ;
+    skos:prefLabel "Boane"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:50102>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:50102" ;
+    skos:prefLabel "Matola Rio"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:50201>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:50201" ;
+    skos:prefLabel "Cidade Da Matola"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:50301>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:50301" ;
+    skos:prefLabel "Magude"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:50302>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:50302" ;
+    skos:prefLabel "Mahele"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:50303>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:50303" ;
+    skos:prefLabel "Mapulanguene"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:50304>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:50304" ;
+    skos:prefLabel "Motaze"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:50305>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:50305" ;
+    skos:prefLabel "Panjane"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:50401>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:50401" ;
+    skos:prefLabel "Calanga"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:50402>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:50402" ;
+    skos:prefLabel "Ilha Josina Machel"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:50403>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:50403" ;
+    skos:prefLabel "Maluana"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:50404>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:50404" ;
+    skos:prefLabel "Manhiça"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:50405>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:50405" ;
+    skos:prefLabel "Palmeira"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:50406>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:50406" ;
+    skos:prefLabel "Xinavane"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:50501>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:50501" ;
+    skos:prefLabel "Machubo"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:50502>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:50502" ;
+    skos:prefLabel "Marracuene"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:50601>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:50601" ;
+    skos:prefLabel "Bela Vista"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:50602>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:50602" ;
+    skos:prefLabel "Catuane"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:50603>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:50603" ;
+    skos:prefLabel "Mugazine"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:50604>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:50604" ;
+    skos:prefLabel "Ndelane"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:50605>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:50605" ;
+    skos:prefLabel "Zitundo"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:50701>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:50701" ;
+    skos:prefLabel "Moamba"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:50702>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:50702" ;
+    skos:prefLabel "Pessene"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:50703>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:50703" ;
+    skos:prefLabel "Ressano Garcia"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:50704>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:50704" ;
+    skos:prefLabel "Sabie"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:50801>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:50801" ;
+    skos:prefLabel "Changalane"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:50802>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:50802" ;
+    skos:prefLabel "Namaacha"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:60101>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:60101" ;
+    skos:prefLabel "Cidade De Maputo"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:70101>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:70101" ;
+    skos:prefLabel "Angoche"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:70102>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:70102" ;
+    skos:prefLabel "Aube"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:70103>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:70103" ;
+    skos:prefLabel "Boila"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:70104>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:70104" ;
+    skos:prefLabel "Namaponda"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:70201>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:70201" ;
+    skos:prefLabel "Cidade De Nampula"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:70301>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:70301" ;
+    skos:prefLabel "Alua"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:70302>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:70302" ;
+    skos:prefLabel "Namapa"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:70303>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:70303" ;
+    skos:prefLabel "Namiroa"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:70401>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:70401" ;
+    skos:prefLabel "Ilha De Moçambique"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:70402>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:70402" ;
+    skos:prefLabel "Lumbo"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:70501>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:70501" ;
+    skos:prefLabel "Lalaua"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:70502>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:70502" ;
+    skos:prefLabel "Meti"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:70601>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:70601" ;
+    skos:prefLabel "Larde"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:70602>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:70602" ;
+    skos:prefLabel "Mucuali"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:70701>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:70701" ;
+    skos:prefLabel "Liúpo"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:70702>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:70702" ;
+    skos:prefLabel "Quinga"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:70801>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:70801" ;
+    skos:prefLabel "Chihulo"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:70802>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:70802" ;
+    skos:prefLabel "Malema"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:70803>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:70803" ;
+    skos:prefLabel "Mutuali"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:70901>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:70901" ;
+    skos:prefLabel "7 De Abril"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:70902>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:70902" ;
+    skos:prefLabel "Corrane"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:70903>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:70903" ;
+    skos:prefLabel "Meconta"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:70904>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:70904" ;
+    skos:prefLabel "Namialo"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:71001>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:71001" ;
+    skos:prefLabel "Mecuburi"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:71002>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:71002" ;
+    skos:prefLabel "Milhana"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:71003>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:71003" ;
+    skos:prefLabel "Muite"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:71004>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:71004" ;
+    skos:prefLabel "Namina"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:71101>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:71101" ;
+    skos:prefLabel "Chipene"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:71102>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:71102" ;
+    skos:prefLabel "Lurio"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:71103>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:71103" ;
+    skos:prefLabel "Mazula"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:71104>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:71104" ;
+    skos:prefLabel "Memba"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:71201>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:71201" ;
+    skos:prefLabel "Namige"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:71202>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:71202" ;
+    skos:prefLabel "Quixaxe"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:71301>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:71301" ;
+    skos:prefLabel "Calipo"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:71302>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:71302" ;
+    skos:prefLabel "Iuluti"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:71303>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:71303" ;
+    skos:prefLabel "Muatua"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:71304>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:71304" ;
+    skos:prefLabel "Nametil"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:71305>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:71305" ;
+    skos:prefLabel "Nanhupo Rio"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:71401>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:71401" ;
+    skos:prefLabel "Chalaua"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:71402>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:71402" ;
+    skos:prefLabel "Moma"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:71501>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:71501" ;
+    skos:prefLabel "Itoculo"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:71502>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:71502" ;
+    skos:prefLabel "Monapo"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:71503>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:71503" ;
+    skos:prefLabel "Netia"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:71601>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:71601" ;
+    skos:prefLabel "Lunga"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:71602>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:71602" ;
+    skos:prefLabel "Matibane"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:71603>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:71603" ;
+    skos:prefLabel "Mossuril"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:71701>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:71701" ;
+    skos:prefLabel "Imala"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:71702>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:71702" ;
+    skos:prefLabel "Muculoene"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:71703>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:71703" ;
+    skos:prefLabel "Muecate"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:71801>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:71801" ;
+    skos:prefLabel "Chinga"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:71802>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:71802" ;
+    skos:prefLabel "Murrupula"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:71803>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:71803" ;
+    skos:prefLabel "Nihessiue"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:71901>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:71901" ;
+    skos:prefLabel "Nacala"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:72001>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:72001" ;
+    skos:prefLabel "Covo"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:72002>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:72002" ;
+    skos:prefLabel "Nacala-A-Velha"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:72101>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:72101" ;
+    skos:prefLabel "Intete"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:72102>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:72102" ;
+    skos:prefLabel "Nacaroa"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:72103>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:72103" ;
+    skos:prefLabel "Saua-Saua"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:72201>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:72201" ;
+    skos:prefLabel "Anchilo"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:72202>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:72202" ;
+    skos:prefLabel "Mutivasse"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:72203>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:72203" ;
+    skos:prefLabel "Namaita"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:72204>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:72204" ;
+    skos:prefLabel "Rapale"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:72301>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:72301" ;
+    skos:prefLabel "Cunle"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:72302>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:72302" ;
+    skos:prefLabel "Iapala"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:72303>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:72303" ;
+    skos:prefLabel "Ribaue"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:80101>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:80101" ;
+    skos:prefLabel "Chimbonila"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:80102>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:80102" ;
+    skos:prefLabel "Lione"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:80103>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:80103" ;
+    skos:prefLabel "Meponda"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:80201>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:80201" ;
+    skos:prefLabel "Cidade De Lichinga"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:80301>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:80301" ;
+    skos:prefLabel "Cuamba"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:80302>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:80302" ;
+    skos:prefLabel "Etarara"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:80303>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:80303" ;
+    skos:prefLabel "Lurio"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:80401>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:80401" ;
+    skos:prefLabel "Ilha Licom"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:80501>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:80501" ;
+    skos:prefLabel "Ilha Risunodo"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:80601>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:80601" ;
+    skos:prefLabel "Cobue"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:80602>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:80602" ;
+    skos:prefLabel "Lunho"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:80603>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:80603" ;
+    skos:prefLabel "Maniamba"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:80604>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:80604" ;
+    skos:prefLabel "Metangula"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:80701>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:80701" ;
+    skos:prefLabel "Lago Niassa"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:80801>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:80801" ;
+    skos:prefLabel "Malanga"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:80802>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:80802" ;
+    skos:prefLabel "Muaquia"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:80803>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:80803" ;
+    skos:prefLabel "Nairrubi"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:80901>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:80901" ;
+    skos:prefLabel "Mandimba"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:80902>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:80902" ;
+    skos:prefLabel "Mitande"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:81001>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:81001" ;
+    skos:prefLabel "Marangira"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:81002>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:81002" ;
+    skos:prefLabel "Marrupa"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:81003>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:81003" ;
+    skos:prefLabel "Nungo"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:81101>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:81101" ;
+    skos:prefLabel "Maiaca"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:81102>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:81102" ;
+    skos:prefLabel "Maua"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:81201>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:81201" ;
+    skos:prefLabel "M'Sawize"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:81202>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:81202" ;
+    skos:prefLabel "Mavago"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:81301>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:81301" ;
+    skos:prefLabel "Chiuta"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:81302>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:81302" ;
+    skos:prefLabel "Insaca"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:81401>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:81401" ;
+    skos:prefLabel "Matondovela"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:81402>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:81402" ;
+    skos:prefLabel "Mecula"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:81501>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:81501" ;
+    skos:prefLabel "Metarica"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:81502>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:81502" ;
+    skos:prefLabel "Nacumua"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:81601>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:81601" ;
+    skos:prefLabel "Chiconono"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:81602>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:81602" ;
+    skos:prefLabel "Muembe"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:81701>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:81701" ;
+    skos:prefLabel "Itepela"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:81702>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:81702" ;
+    skos:prefLabel "Massangulo"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:81801>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:81801" ;
+    skos:prefLabel "Muipite"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:81802>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:81802" ;
+    skos:prefLabel "Nipepe"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:81901>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:81901" ;
+    skos:prefLabel "Lussimbesse"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:81902>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:81902" ;
+    skos:prefLabel "Macaloge"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:81903>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:81903" ;
+    skos:prefLabel "Matchedje"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:81904>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:81904" ;
+    skos:prefLabel "Unango"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:90101>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:90101" ;
+    skos:prefLabel "Buzi"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:90102>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:90102" ;
+    skos:prefLabel "Estaquinha"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:90103>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:90103" ;
+    skos:prefLabel "Sofala"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:90201>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:90201" ;
+    skos:prefLabel "Caia"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:90202>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:90202" ;
+    skos:prefLabel "Murraça"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:90203>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:90203" ;
+    skos:prefLabel "Sena"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:90301>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:90301" ;
+    skos:prefLabel "Chemba"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:90302>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:90302" ;
+    skos:prefLabel "Chiramba"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:90303>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:90303" ;
+    skos:prefLabel "Mulima"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:90401>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:90401" ;
+    skos:prefLabel "Inhaminga"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:90402>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:90402" ;
+    skos:prefLabel "Inhamitanga"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:90501>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:90501" ;
+    skos:prefLabel "Chibabava"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:90502>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:90502" ;
+    skos:prefLabel "Goonda"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:90503>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:90503" ;
+    skos:prefLabel "Muxungue"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:90601>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:90601" ;
+    skos:prefLabel "Cidade Da Beira"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:90701>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:90701" ;
+    skos:prefLabel "Dondo"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:90702>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:90702" ;
+    skos:prefLabel "Mafambisse"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:90801>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:90801" ;
+    skos:prefLabel "Gorongosa"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:90802>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:90802" ;
+    skos:prefLabel "Nhamadze"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:90803>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:90803" ;
+    skos:prefLabel "Vanduzi"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:90901>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:90901" ;
+    skos:prefLabel "Divinhe"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:90902>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:90902" ;
+    skos:prefLabel "Machanga"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:91001>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:91001" ;
+    skos:prefLabel "Canxixe"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:91002>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:91002" ;
+    skos:prefLabel "Maringue"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:91003>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:91003" ;
+    skos:prefLabel "Subwe"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:91101>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:91101" ;
+    skos:prefLabel "Chupanga"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:91102>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:91102" ;
+    skos:prefLabel "Marromeu"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:91201>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:91201" ;
+    skos:prefLabel "Galinha"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:91202>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:91202" ;
+    skos:prefLabel "Muanza"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:91301>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:91301" ;
+    skos:prefLabel "Nhamatanda"@por-Latn .
+
+<urn:mdciii:1603:16:508:3:91302>
+    a obo:BFO_0000029, owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:508:3:91302" ;
+    skos:prefLabel "Tica"@por-Latn .
+
