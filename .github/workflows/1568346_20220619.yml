@@ -120,6 +120,26 @@ jobs:
           officina/1603/16/24
         continue-on-error: true
 
+      - name: MDCIII/1603_16_508
+        uses: actions/checkout@v3
+        continue-on-error: true
+        with:
+          repository: MDCIII/1603_16_508
+          path: officina/999999/3133368/1603_16_508
+          fetch-depth: "1"
+
+      - name: "[MDCIII/1603_16_508/1603/16/508/ -> apothēca]"
+        run: >
+          rsync --verbose --human-readable --checksum --recursive
+          --prune-empty-dirs
+          --include "*/"
+          --include="*.ttl" --include="*.owl"  --include="*.csv"
+          --exclude=".gitkeep"
+          --exclude="*"
+          officina/999999/3133368/1603_16_508/1603/16/508/
+          officina/1603/16/508
+        continue-on-error: true
+
       # - name: MDCIII/1603_16_24 -> apothēca
       #   uses: actions/checkout@v3
       #   continue-on-error: true
