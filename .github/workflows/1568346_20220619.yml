@@ -292,8 +292,8 @@ jobs:
         id: git_diff_files
         run: git diff --name-only
 
-      - name: git diff --name-only (result)
-        run: echo "The selected color is ${{ steps.git_diff_files.outputs }}"
+      - name: git diff --name-only (result) [@TODO use this output to decide the _commit changes if necessary_ instead of just trying]
+        run: echo "Output ${{ steps.git_diff_files.outputs }}"
 
       # @TODO test first if changes are need, then commit it
       - name: commit changes if necessary

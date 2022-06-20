@@ -38,5 +38,26 @@ source ~/.profile
 vartest1=$(head -n 1 /workspace/git/EticaAI/lexicographi-sine-finibus/officina/999999999/1568346/data/cod-ab-example1-with-inferences.bcp47.tsv)
 ./999999999/0/999999999_54872.py --objectivum-formato=_temp_header_bcp47_to_hxl "$vartest1"
 
+## Data
+
+### .no1.skos.ttl
+./999999999/0/999999999_54872.py --objectivum-formato=_temp_no1 --punctum-separato-de-fontem=$'\t' /workspace/git/EticaAI/lexicographi-sine-finibus/officina/999999999/1568346/data/cod-ab-example1-with-inferences.no1.hxl.tm.tsv --rdf-sine-spatia-nominalibus=owl,obo,p,geo,devnull --rdf-trivio=5001
+
+### .no1.owl.ttl
+./999999999/0/999999999_54872.py --objectivum-formato=_temp_no1 --punctum-separato-de-fontem=$'\t' /workspace/git/EticaAI/lexicographi-sine-finibus/officina/999999999/1568346/data/cod-ab-example1-with-inferences.no1.hxl.tm.tsv --rdf-sine-spatia-nominalibus=skos,devnull --rdf-trivio=5001
+
+
+#### Protege interface rendering -----------------------------------------------
+# > pt, pt-BR, por-Latn, por-latn, eng-Latn, eng-latn, !, en
+# @see https://stackoverflow.com/questions/53266385/change-order-for-rdfslabel-in-prot%c3%a9g%c3%a9/70859977#70859977
+
+
+## Now using (without the "!")
+# Anotation IRI
+#   - > skos:prefLabel
+#   - > rdfs:label
+#   - > dc:identifier
+# Set Language
+>   - > pt, pt-BR, por-Latn, por-latn, eng-Latn, eng-latn, en
 
 -->
