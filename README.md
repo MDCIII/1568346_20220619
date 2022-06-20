@@ -21,4 +21,22 @@ source ~/.profile
 
 # Protege
 #    /opt/Protege-5.5.0/run.sh
+
+
+### Other tests ----------------------------------------------------------------
+
+./999999999/0/999999999_54872.py --objectivum-formato=_temp_no1 /workspace/git/mdciii/1568346_20220619/officina/1603/16/24/1/1603_16_24_1.no1.tm.hxl.csv --rdf-sine-spatia-nominalibus=devnull --rdf-trivio=5001
+
+./999999999/0/999999999_54872.py --objectivum-formato=_temp_hxl_meta_in_json /workspace/git/mdciii/1568346_20220619/officina/1603/16/24/1/1603_16_24_1.no1.tm.hxl.csv --rdf-sine-spatia-nominalibus=devnull --rdf-trivio=5001 | jq
+
+./999999999/0/999999999_54872.py --objectivum-formato=_temp_hxl_meta_in_json --punctum-separato-de-fontem=$'\t' /workspace/git/EticaAI/lexicographi-sine-finibus/officina/999999999/1568346/data/cod-ab-example1-with-inferences.no1.hxl.tm.tsv --rdf-sine-spatia-nominalibus=devnull --rdf-trivio=5001 | jq
+
+# The next one works; no1.hxl.tm.tsv test case on lsf is out of sync at the moment
+
+./999999999/0/999999999_54872.py --objectivum-formato=_temp_bcp47_meta_in_json --punctum-separato-de-fontem=$'\t' /workspace/git/EticaAI/lexicographi-sine-finibus/officina/999999999/1568346/data/cod-ab-example1-with-inferences.bcp47.tsv --rdf-sine-spatia-nominalibus=devnull --rdf-trivio=5001 | jq
+
+vartest1=$(head -n 1 /workspace/git/EticaAI/lexicographi-sine-finibus/officina/999999999/1568346/data/cod-ab-example1-with-inferences.bcp47.tsv)
+./999999999/0/999999999_54872.py --objectivum-formato=_temp_header_bcp47_to_hxl "$vartest1"
+
+
 -->
