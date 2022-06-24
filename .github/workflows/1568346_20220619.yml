@@ -94,6 +94,15 @@ jobs:
           path: officina/999999/3133368/1603_16_1
           fetch-depth: "1"
 
+      # Debug part, remove later, START
+      - run: pwd
+      - run: find * -type f
+        continue-on-error: true
+      - run: pwd
+      - run: git status
+        continue-on-error: true
+      # # Debug part, remove later, END
+
       - name: "[MDCIII/1603_16_1/1603/16/1/0/ -> apothēca]"
         run: >
           rsync --verbose --human-readable --checksum --recursive
@@ -102,8 +111,8 @@ jobs:
           --include="*.ttl" --include="*.owl"  --include="*.csv"
           --exclude=".gitkeep"
           --exclude="*"
-          officina/999999/3133368/1603_16_1/1603/16/1/0/
-          officina/1603/16/1/0
+          officina/999999/3133368/1603_16_1/1603/16/1/
+          officina/1603/16/1
         continue-on-error: true
 
       - name: MDCIII/1603_16_24
