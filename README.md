@@ -22,6 +22,12 @@ source ~/.profile
 # Protege
 #    /opt/Protege-5.5.0/run.sh
 
+### TODOs ----------------------------------------------------------------------
+# - helper with catalog-v001.xml
+#   - Maybe automate for user concatenation of each project catalog-v001.xml
+#     with
+#     - https://manpages.ubuntu.com/manpages/jammy/man1/xmlmerge.1.html
+#     - https://pypi.org/project/xmlmerge/
 
 ### Other tests ----------------------------------------------------------------
 
