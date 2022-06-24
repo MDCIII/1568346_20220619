@@ -51,20 +51,6 @@ jobs:
     runs-on: ubuntu-latest
     continue-on-error: true
     steps:
-      #### Low level ssh-agent _________________________________________________
-      # # @see https://github.com/marketplace/actions/webfactory-ssh-agent
-      # # REASONING: this is not necessary for read-only requests to public
-      # #            repositories, but for use GitHub Actions runner, we need
-      # #            something far more dynamic than write YAML for every
-      # #            repository we would create with shell scripting
-      # - name: ID_ED25519__GITHUBRUNNER2022
-      #   uses: webfactory/ssh-agent@v0.5.4
-      #   with:
-      #     ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY__ID_ED25519__GITHUBRUNNER2022 }}
-
-      # - run: ssh -T git@github.com
-      #   continue-on-error: true
-
       #### Fetch data __________________________________________________________
 
       - name: apothēca [MDCIII/1568346_20220619]
@@ -99,6 +85,26 @@ jobs:
         continue-on-error: true
 
       # - run: mkdir -p officina/1603/16/24
+
+      - name: MDCIII/1603_16_1
+        uses: actions/checkout@v3
+        continue-on-error: true
+        with:
+          repository: MDCIII/1603_16_1
+          path: officina/999999/3133368/1603_16_1
+          fetch-depth: "1"
+
+      - name: "[MDCIII/1603_16_1/1603/16/1/0/ -> apothēca]"
+        run: >
+          rsync --verbose --human-readable --checksum --recursive
+          --prune-empty-dirs
+          --include "*/"
+          --include="*.ttl" --include="*.owl"  --include="*.csv"
+          --exclude=".gitkeep"
+          --exclude="*"
+          officina/999999/3133368/1603_16_1/1603/16/1/0/
+          officina/1603/16/1/0
+        continue-on-error: true
 
       - name: MDCIII/1603_16_24
         uses: actions/checkout@v3
