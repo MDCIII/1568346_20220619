@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <uri id="_1603_1_1603__0" name="urn:mdciii:1603:1:1603(0)" uri="1603/1/1603/1603_1_1603.owl"/>
     <uri id="_1603_16_1_0__1" name="urn:mdciii:1603:16:1:0(1)" uri="1603/16/1/0/1603_16_1_0.no1.owl.ttl"/>
     <uri id="_1603_16_24_0__1" name="urn:mdciii:1603:16:24:0(1)" uri="1603/16/24/0/1603_16_24_0.no1.owl.ttl"/>
+    <uri id="_1603_16_24_0__1_1" name="urn:mdciii:1603:16:24:0(1)(1)" uri="1603/16/24/0/1603_16_24_0.no1.skos.ttl"/>
     <uri id="_1603_16_24_1__1" name="urn:mdciii:1603:16:24:1(1)" uri="1603/16/24/1/1603_16_24_1.no1.owl.ttl"/>
+    <uri id="_1603_16_24_1__1_1" name="urn:mdciii:1603:16:24:1(1)(1)" uri="1603/16/24/1/1603_16_24_1.no1.skos.ttl"/>
     <uri id="_1603_16_24_2__1" name="urn:mdciii:1603:16:24:2(1)" uri="1603/16/24/2/1603_16_24_2.no1.owl.ttl"/>
+    <uri id="_1603_16_24_2__1_1" name="urn:mdciii:1603:16:24:2(1)(1)" uri="1603/16/24/2/1603_16_24_2.no1.skos.ttl"/>
     <uri id="_1603_16_24_3__1" name="urn:mdciii:1603:16:24:3(1)" uri="1603/16/24/3/1603_16_24_3.no1.owl.ttl"/>
+    <uri id="_1603_16_24_3__1_1" name="urn:mdciii:1603:16:24:3(1)(1)" uri="1603/16/24/3/1603_16_24_3.no1.skos.ttl"/>
     <uri id="_1603_16_508_0__1" name="urn:mdciii:1603:16:508:0(1)" uri="1603/16/508/0/1603_16_508_0.no1.owl.ttl"/>
     <uri id="_1603_16_508_0__1_1" name="urn:mdciii:1603:16:508:0(1)(1)" uri="1603/16/508/0/1603_16_508_0.no1.skos.ttl"/>
     <uri id="_1603_16_508_1__1" name="urn:mdciii:1603:16:508:1(1)" uri="1603/16/508/1/1603_16_508_1.no1.owl.ttl"/>
