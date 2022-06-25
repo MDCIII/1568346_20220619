@@ -1,9 +1,10 @@
 # Just some are really necessary
+# @TODO eventually test again. The new versions may not need this
 hxltm-eticaai
 #python-liquid
 #langcodes
 pyyaml
 libhxl
-#openpyxl
+openpyxl
 #frictionless
 #csvkit
