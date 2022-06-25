@@ -94,14 +94,14 @@ jobs:
           path: officina/999999/3133368/1603_16_1
           fetch-depth: "1"
 
-      # Debug part, remove later, START
-      - run: pwd
-      - run: find * -type f
-        continue-on-error: true
-      - run: pwd
-      - run: git status
-        continue-on-error: true
-      # # Debug part, remove later, END
+      # # Debug part, remove later, START
+      # - run: pwd
+      # - run: find * -type f
+      #   continue-on-error: true
+      # - run: pwd
+      # - run: git status
+      #   continue-on-error: true
+      # # # Debug part, remove later, END
 
       - name: "[MDCIII/1603_16_1/1603/16/1/0/ -> apothēca]"
         run: >
@@ -243,16 +243,48 @@ jobs:
       # - run: ls -lha 999999/1603/45/16/1603_45_16.index.hxl.csv
       #   continue-on-error: true
 
-      # #### Python ______________________________________________________________
-      # # @see https://github.com/actions/setup-python
-      # - uses: actions/setup-python@v4
-      #   with:
-      #     python-version: "3.9"
-      #     cache: "pip"
-      # # - run: pip install libhxl hxltm-eticaai openpyxl frictionless csvkit
+      ##########################################################################
+      ###### OPTIONAL PART: automated catalog-v001.xml and datapackage, START ##
+      ##########################################################################
+      # Previous operations only copy and pasted files from other repositories
+      # But these ones actually will run code. You can do it manually
+      # (or copy the code and verify yourself) than also running code
+
+      # #### Python ____________________________________________________________
+      # @see https://github.com/actions/setup-python
+      - uses: actions/setup-python@v4
+        continue-on-error: true
+        with:
+          python-version: "3.9"
+          cache: "pip"
+      - run: pip install libhxl hxltm-eticaai openpyxl frictionless csvkit
+        continue-on-error: true
       # # - run: pip install -r .github/requirements.txt
       # - run: pip install -r ../.github/requirements.txt
       #   continue-on-error: true
+
+      - run: ./officina/999999/3133368/lsf-cache/999999999/0/1603_1.py --help
+        continue-on-error: true
+
+      - name: 1603_1.py -> officina/catalog-v001.xml
+        run: >
+          ./officina/999999/3133368/lsf-cache/999999999/0/1603_1.py
+          --methodus='data-apothecae'
+          --data-apothecae-ad-stdout
+          --data-apothecae-formato='catalog'
+          --data-apothecae-ex-suffixis='no1.owl.ttl,no11.owl.ttl,no1.skos.ttl,no11.skos.ttl'
+          --data-apothecae-ex-praefixis='1603'
+        continue-on-error: true
+
+      - name: 1603_1.py -> officina/datapackage.json
+        run: >
+          ./officina/999999/3133368/lsf-cache/999999999/0/1603_1.py
+          --methodus='data-apothecae'
+          --data-apothecae-ad-stdout
+          --data-apothecae-formato='datapackage'
+          --data-apothecae-ex-suffixis='no1.tm.hxl.csv,no11.tm.hxl.csv'
+          --data-apothecae-ex-praefixis='1603'
+        continue-on-error: true
 
       # #### Java Setup __________________________________________________________
       # # @see https://github.com/marketplace/actions/setup-java-jdk
@@ -270,6 +302,10 @@ jobs:
       # # @see https://github.com/foooomio/setup-jena
       # - run: apt install -y raptor-utils
       #   continue-on-error: true
+
+      ##########################################################################
+      ###### OPTIONAL PART: automated catalog-v001.xml and datapackage, END ####
+      ##########################################################################
 
       # #### Debug _______________________________________________________________
       # # _[por-Latn] Lista arquivos locais (útil para saber o que fazer upload [por-Latn]_
