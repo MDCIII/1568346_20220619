@@ -28,6 +28,8 @@ source ~/.profile
 #     with
 #     - https://manpages.ubuntu.com/manpages/jammy/man1/xmlmerge.1.html
 #     - https://pypi.org/project/xmlmerge/
+# - https://github.com/timrobertson100/frictionless-transforms/blob/master/README.md
+#   - Maybe ? https://github.com/frictionlessdata/datapackage-pipelines#dump_to_sql
 
 ### Other tests ----------------------------------------------------------------
 

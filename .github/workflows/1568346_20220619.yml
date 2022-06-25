@@ -58,6 +58,14 @@ jobs:
         with:
           fetch-depth: 2
 
+      - run: mkdir -p 999999/0/
+        continue-on-error: true
+        working-directory: ./officina
+
+      - run: mkdir -p 999999/3133368/
+        continue-on-error: true
+        working-directory: ./officina
+
       # - name: EticaAI/lexicographi-sine-finibus
       #   uses: actions/checkout@v3
       #   with:

@@ -1,14 +1,24 @@
 
 # Use can merge everything from 1568346_20220619.owl into 1568346_20220619.merged.owl
 *.merged.owl
+# Do not commit databases on disk
+*.db
+*.sqlite
 
-999999/0/*
-!999999/0/.gitkeep
-999999/3133368/*
-!999999/3133368/.gitkeep
-!999999/3133368/README.md
+## Do not commit intermediary data caches, if any
+999999/*
+
+## Do not commit software files, if any
+999999999/*
+
+# 999999/0/*
+# !999999/0/.gitkeep
+# 999999/3133368/*
+# !999999/3133368/.gitkeep
+# !999999/3133368/README.md
 # 999999/0/teste
 # 999999/3133368/*
 # !999999/3133368/README.md
 # !999999/3133368/.gitkeep
 # 999999/
+
