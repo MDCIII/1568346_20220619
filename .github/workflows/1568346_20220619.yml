@@ -266,28 +266,35 @@ jobs:
       # - run: pip install -r ../.github/requirements.txt
       #   continue-on-error: true
 
-      - run: ./officina/999999/3133368/lsf-cache/999999999/0/1603_1.py --help
+      - run: ./999999/3133368/lsf-cache/999999999/0/1603_1.py --help
         continue-on-error: true
+        working-directory: ./officina
 
-      - name: 1603_1.py -> officina/catalog-v001.xml
+      - name: "[1603_1.py] -> officina/catalog-v001.xml"
         run: >
-          ./officina/999999/3133368/lsf-cache/999999999/0/1603_1.py
+          ./999999/3133368/lsf-cache/999999999/0/1603_1.py
           --methodus='data-apothecae'
           --data-apothecae-ad-stdout
           --data-apothecae-formato='catalog'
           --data-apothecae-ex-suffixis='no1.owl.ttl,no11.owl.ttl,no1.skos.ttl,no11.skos.ttl'
           --data-apothecae-ex-praefixis='1603'
+        env:
+          DATA_APOTHECAE_MINIMIS: 1 # Do not autoimport system tables (e.g 1603_1_1)
         continue-on-error: true
+        working-directory: ./officina
 
-      - name: 1603_1.py -> officina/datapackage.json
+      - name: "[1603_1.py] officina/datapackage.json"
         run: >
-          ./officina/999999/3133368/lsf-cache/999999999/0/1603_1.py
+          ./999999/3133368/lsf-cache/999999999/0/1603_1.py
           --methodus='data-apothecae'
           --data-apothecae-ad-stdout
           --data-apothecae-formato='datapackage'
           --data-apothecae-ex-suffixis='no1.tm.hxl.csv,no11.tm.hxl.csv'
           --data-apothecae-ex-praefixis='1603'
+        env:
+          DATA_APOTHECAE_MINIMIS: 1 # Do not autoimport system tables (e.g 1603_1_1)
         continue-on-error: true
+        working-directory: ./officina
 
       # #### Java Setup __________________________________________________________
       # # @see https://github.com/marketplace/actions/setup-java-jdk
