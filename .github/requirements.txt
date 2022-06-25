@@ -1,0 +1,9 @@
+# Just some are really necessary
+hxltm-eticaai
+#python-liquid
+#langcodes
+pyyaml
+libhxl
+#openpyxl
+#frictionless
+#csvkit
