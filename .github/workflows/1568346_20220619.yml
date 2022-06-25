@@ -270,6 +270,19 @@ jobs:
         continue-on-error: true
         working-directory: ./officina
 
+      - name: "[1603_1.py] -> officina/catalog-v001.xml (debug)"
+        run: >
+          ./999999/3133368/lsf-cache/999999999/0/1603_1.py
+          --methodus='data-apothecae'
+          --data-apothecae-ad-stdout
+          --data-apothecae-formato='catalog'
+          --data-apothecae-ex-suffixis='no1.owl.ttl,no11.owl.ttl,no1.skos.ttl,no11.skos.ttl'
+          --data-apothecae-ex-praefixis='1603'
+        env:
+          DATA_APOTHECAE_MINIMIS: 1 # Do not autoimport system tables (e.g 1603_1_1)
+        continue-on-error: true
+        working-directory: ./officina
+
       - name: "[1603_1.py] -> officina/catalog-v001.xml"
         run: >
           ./999999/3133368/lsf-cache/999999999/0/1603_1.py
@@ -277,6 +290,20 @@ jobs:
           --data-apothecae-ad-stdout
           --data-apothecae-formato='catalog'
           --data-apothecae-ex-suffixis='no1.owl.ttl,no11.owl.ttl,no1.skos.ttl,no11.skos.ttl'
+          --data-apothecae-ex-praefixis='1603'
+          > catalog-v001.xml
+        env:
+          DATA_APOTHECAE_MINIMIS: 1 # Do not autoimport system tables (e.g 1603_1_1)
+        continue-on-error: true
+        working-directory: ./officina
+
+      - name: "[1603_1.py] officina/datapackage.json (debug)"
+        run: >
+          ./999999/3133368/lsf-cache/999999999/0/1603_1.py
+          --methodus='data-apothecae'
+          --data-apothecae-ad-stdout
+          --data-apothecae-formato='datapackage'
+          --data-apothecae-ex-suffixis='no1.tm.hxl.csv,no11.tm.hxl.csv'
           --data-apothecae-ex-praefixis='1603'
         env:
           DATA_APOTHECAE_MINIMIS: 1 # Do not autoimport system tables (e.g 1603_1_1)
@@ -291,6 +318,7 @@ jobs:
           --data-apothecae-formato='datapackage'
           --data-apothecae-ex-suffixis='no1.tm.hxl.csv,no11.tm.hxl.csv'
           --data-apothecae-ex-praefixis='1603'
+          > datapackage.json
         env:
           DATA_APOTHECAE_MINIMIS: 1 # Do not autoimport system tables (e.g 1603_1_1)
         continue-on-error: true
